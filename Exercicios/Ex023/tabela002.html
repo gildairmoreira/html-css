@@ -1,46 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabelas</title>
     <style>
-        body{
+        body {
             font-family: Arial, Helvetica, sans-serif;
         }
-        caption{
+
+        caption {
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
             background-color: lightgrey;
         }
-        table{
+
+        table {
             width: 500px;
             border-collapse: collapse;
             position: relative;
         }
-        td,th{
+
+        td,
+        th {
             border: 1px solid black;
             padding: 10px;
         }
-        thead,tfoot{
+
+        thead,
+        tfoot {
             background-color: gray;
             color: white;
         }
-        thead >tr >th{  /*manter o titulo rolando na tabela */
+
+        thead>tr>th {
+            /*manter o titulo rolando na tabela */
             position: sticky;
             top: -1px;
             background-color: grey;
         }
-        td.num{
+
+        td.num {
             text-align: right;
         }
-        tbody > tr:nth-child(2n){               /*Zebrado em tabelas*/
+
+        tbody>tr:nth-child(2n) {
+            /*Zebrado em tabelas*/
             background-color: lightgrey;
         }
     </style>
 </head>
+
 <body>
     <!-- Anatomia Para Tabelas Grandes
             TABLE
@@ -76,7 +89,7 @@
             </tr>
             <tr>
                 <td>Bahia</td>
-                <td class="num">14 016 906	</td>
+                <td class="num">14 016 906 </td>
             </tr>
             <tr>
                 <td>Paraná</td>
@@ -179,4 +192,5 @@
         </tfoot>
     </table>
 </body>
+
 </html>
