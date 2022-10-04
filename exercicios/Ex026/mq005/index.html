@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Cigarro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
-        <menu>
+        <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
                 <li><a href="#">opção 1</a></li>
                 <li><a href="#">opção 2</a></li>
@@ -30,5 +32,12 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsam officiis beatae accusantium dolor? Quam hic impedit ratione temporibus ut animi, ipsum necessitatibus voluptate repudiandae optio dolorem dolor architecto nemo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, possimus quas harum, fugiat quaerat libero maiores quia vitae itaque iusto ipsum? Unde pariatur architecto id soluta. Quia sequi inventore porro!</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else
+        }
+    </script>
 </body>
 </html>
