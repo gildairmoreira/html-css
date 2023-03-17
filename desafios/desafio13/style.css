@@ -1,0 +1,8 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    /*background: linear-gradient(135deg, #2A3443, #1B98B6);
+     background: linear-gradient(135deg, #2A3443, #65F3EE); 
+    background: linear-gradient(135deg, #2A3443, #0F677C);*/
+    background: linear-gradient(135deg,#1a232c, #2d425f,#27415f, #0F677C,#22BCDC);
+}
